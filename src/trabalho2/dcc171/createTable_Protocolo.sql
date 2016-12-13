@@ -1,0 +1,7 @@
+CREATE TABLE protocolo
+(
+	id INT NOT NULL GENERATED ALWAYS AS IDENTITY,
+        setor VARCHAR(150) NOT NULL,
+	protocolo INT NOT NULL,
+	utilizado TIMESTAMP
+);
